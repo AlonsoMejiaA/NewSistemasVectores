@@ -30,11 +30,11 @@ public class myTest : MonoBehaviour
 
         vectorSum = vector1 + vector2;
         vectorSub = vector1-vector2;
-        var vectorScale = vectorSub * escalarEscalado;
+        var vectorScale = vector1.Lerp(vector2,escalarEscalado);
         vector1.Draw();
         vector2.Draw();
         //vectorSum.Draw(vector1);
-        vectorScale.Draw(vector2);
+        vectorScale.Draw();
 
         //vector1Nor.Draw();
         //vector2Nor.Draw();
