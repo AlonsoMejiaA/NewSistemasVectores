@@ -13,7 +13,7 @@ public class MoverEditor : Editor
         if (GUILayout.Button("Click me")) 
         {
             var castedTarget = target as Mover;
-            castedTarget.move();
+          
         
         }
     }
